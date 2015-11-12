@@ -1,3 +1,6 @@
+# get additionnal files:
+# Wordpress/wp-content/uploads/.gitignore
+
 *.log
 .htaccess
 sitemap.xml
@@ -9,10 +12,15 @@ wp-content/backups/
 wp-content/blogs.dir/
 wp-content/cache/
 wp-content/upgrade/
-wp-content/uploads/
+!wp-content/uploads/.gitignore
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
-
+wp-content/plugins/wordfence/tmp/configCache.php
+wp-content/uploads/revisr-backups/
+wp-content/uploads/sucuri/sucuri-lastlogins.php
+wp-content/uploads/sucuri/sucuri-failedlogins.php
+wp-content/w3tc/*cache
+wp-content/w3tc-config/master.php
 /readme.html
 /license.txt
-
+sitesync
