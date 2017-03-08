@@ -33,3 +33,4 @@ upload/
 sitesync/
 _install/*
 *.DS_Store
+modules/gamification/views/css/advice-*.css
